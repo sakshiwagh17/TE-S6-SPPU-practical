@@ -1,0 +1,17 @@
+public class StudentInformation {
+    public static void studentDetails() {
+
+        String studentName = 'Aniket Nalawade';
+        Integer studentAge = 21;
+        Double studentMarks = 89.5;
+
+ 
+        System.debug('Student Information:');
+        System.debug('Name: ' + studentName);
+        System.debug('Age: ' + studentAge);
+        System.debug('Marks: ' + studentMarks);
+    }
+}
+
+//Apex Code
+StudentInformation.studentDetails();
