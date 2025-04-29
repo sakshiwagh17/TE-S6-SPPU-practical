@@ -1,0 +1,17 @@
+public class EmployeeInformation {
+    public static void employeeDetails() {
+        // Simulating input
+        String employeeName = 'Rahul Sharma';
+        Integer employeeAge = 30;
+        Double employeeSalary = 75000.50;
+
+        // Output using System.debug
+        System.debug('Employee Information:');
+        System.debug('Name: ' + employeeName);
+        System.debug('Age: ' + employeeAge);
+        System.debug('Salary: ' + employeeSalary);
+    }
+}
+
+//Apex Code
+EmployeeInformation.employeeDetails();
